@@ -116,7 +116,7 @@ img {
         background-color: #FFFFFF;
         height: 50px;
         z-index: 10;
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0, 1);
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
     }
 
     .header-inner {
@@ -142,6 +142,10 @@ img {
         display: none;
     }
 
+    .header-site-menu.is-show {
+        display: block;
+    }
+
     .toggle-menu-button {
         display: block;
         width: 44px;
@@ -154,10 +158,6 @@ img {
         border: none;
         border-radius: 0;
         outline: none;
-    }
-
-    .header-site-menu.is-show {
-        display: block;
     }
 
     .main {
